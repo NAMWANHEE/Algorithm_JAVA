@@ -55,6 +55,7 @@ public class bj_6593 {
 						break;
 					}
 					q.add(new int[] {arr[0],nx,ny,arr[3]+1});
+					check[arr[0]][nx][ny] = true;
 				}
 				if(chk) break;
 				if(arr[0]-1 >= 0 && map[arr[0]-1][arr[1]][arr[2]] != '#' && check[arr[0]-1][arr[1]][arr[2]] == false) {
@@ -66,6 +67,7 @@ public class bj_6593 {
 						break;
 					}
 					q.add(new int [] {arr[0]-1,arr[1],arr[2],arr[3]+1});
+					check[arr[0]-1][arr[1]][arr[2]] = true;
 					
 				}
 				if(arr[0]+1 <l && map[arr[0]+1][arr[1]][arr[2]] != '#' && check[arr[0]+1][arr[1]][arr[2]] == false) {
@@ -77,6 +79,7 @@ public class bj_6593 {
 						break;
 					}
 					q.add(new int [] {arr[0]+1,arr[1],arr[2],arr[3]+1});
+					check[arr[0]+1][arr[1]][arr[2]] = true;
 				}
 				
 			}
