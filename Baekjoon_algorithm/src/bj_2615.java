@@ -101,7 +101,7 @@ public class bj_2615 {
 					
 				}
 				else {
-					System.out.println(1);
+					System.out.println(2);
 					System.out.println((i+5) +" "+ (j-3));
 					System.exit(0);
 
@@ -116,7 +116,7 @@ public class bj_2615 {
 					
 				}
 				else {
-					System.out.println(1);
+					System.out.println(2);
 					System.out.println((i+1) +" "+ (j+1));
 					System.exit(0);
 
@@ -131,7 +131,7 @@ public class bj_2615 {
 					
 				}
 				else {
-					System.out.println(1);
+					System.out.println(2);
 					System.out.println((i+1) +" "+ (j+1));
 					System.exit(0);
 
@@ -145,7 +145,7 @@ public class bj_2615 {
 					
 				}
 				else {
-					System.out.println(1);
+					System.out.println(2);
 					System.out.println((i+1) +" "+ (j+1));
 					System.exit(0);
 
