@@ -14,7 +14,6 @@ public class bj_9625 {
 			int new_b = a+b;
 			a = new_a;
 			b = new_b;
-	
 		}
 		System.out.println(a+" "+b);
 
