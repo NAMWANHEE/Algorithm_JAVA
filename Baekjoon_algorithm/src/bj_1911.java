@@ -21,7 +21,7 @@ public class bj_1911 {
 			
 			if(arr[0] > idx) idx = arr[0];
 			
-			while(arr[1] <= idx) {
+			while(arr[1] > idx) {
 				idx += l;
 				ans++;
 			}
