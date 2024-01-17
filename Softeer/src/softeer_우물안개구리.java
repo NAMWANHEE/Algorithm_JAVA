@@ -45,7 +45,11 @@ public class softeer_우물안개구리 {
 				else check[i] = true;
 			}
 		}
-		System.out.println(Arrays.toString(check));
+		int ans = 0;
+		for(int i=1;i<n+1;i++) {
+			if(!check[i]) ans++;
+		}
+		System.out.println(ans);
 
 	}
 
